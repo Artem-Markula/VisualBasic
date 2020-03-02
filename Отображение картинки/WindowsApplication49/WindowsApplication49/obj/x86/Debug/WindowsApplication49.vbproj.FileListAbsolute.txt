@@ -1,0 +1,21 @@
+C:\Users\302\Documents\Visual Studio 2010\Projects\WindowsApplication49\WindowsApplication49\bin\Debug\WindowsApplication49.exe
+C:\Users\302\Documents\Visual Studio 2010\Projects\WindowsApplication49\WindowsApplication49\bin\Debug\WindowsApplication49.pdb
+C:\Users\302\Documents\Visual Studio 2010\Projects\WindowsApplication49\WindowsApplication49\bin\Debug\WindowsApplication49.xml
+C:\Users\302\Documents\Visual Studio 2010\Projects\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.Form1.resources
+C:\Users\302\Documents\Visual Studio 2010\Projects\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.Resources.resources
+C:\Users\302\Documents\Visual Studio 2010\Projects\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.vbproj.GenerateResource.Cache
+C:\Users\302\Documents\Visual Studio 2010\Projects\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.exe
+C:\Users\302\Documents\Visual Studio 2010\Projects\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.xml
+C:\Users\302\Documents\Visual Studio 2010\Projects\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.pdb
+H:\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.exe
+H:\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.xml
+H:\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.pdb
+C:\Users\Маркула\Desktop\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.exe
+C:\Users\Маркула\Desktop\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.xml
+C:\Users\Маркула\Desktop\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.pdb
+C:\Users\Маркула\Desktop\WindowsApplication49\WindowsApplication49\bin\Debug\WindowsApplication49.exe
+C:\Users\Маркула\Desktop\WindowsApplication49\WindowsApplication49\bin\Debug\WindowsApplication49.pdb
+C:\Users\Маркула\Desktop\WindowsApplication49\WindowsApplication49\bin\Debug\WindowsApplication49.xml
+C:\Users\Маркула\Desktop\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.Form1.resources
+C:\Users\Маркула\Desktop\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.Resources.resources
+C:\Users\Маркула\Desktop\WindowsApplication49\WindowsApplication49\obj\x86\Debug\WindowsApplication49.vbproj.GenerateResource.Cache

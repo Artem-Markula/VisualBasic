@@ -1,0 +1,305 @@
+Public Class Form1
+
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+
+        Dim N As Integer
+        Dim Score As Integer
+
+
+
+        If RadioButton1.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage2)
+        End If
+
+
+        If RadioButton2.Checked = True Then
+            MessageBox.Show("Но эта знает каждый", "Правильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage2)
+
+
+            N = 1
+            Score = N + N
+
+            TextBox1.Text = Score
+
+
+        End If
+        If RadioButton3.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage2)
+        End If
+
+        If RadioButton4.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage2)
+
+        End If
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+
+        Dim N As Integer
+        Dim Score As Integer
+
+        If RadioButton5.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage3)
+        End If
+        If RadioButton7.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage3)
+
+        End If
+
+        If RadioButton6.Checked = True Then
+            MessageBox.Show("Да ты гений", "Правильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage3)
+
+
+
+            N = TextBox1.Text
+            Score = N + N
+
+            TextBox1.Text = Score
+        End If
+
+        If RadioButton8.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage3)
+        End If
+    End Sub
+
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+
+        Dim N As Integer
+        Dim Score As Integer
+
+
+        If RadioButton9.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage7)
+        End If
+        If RadioButton11.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage7)
+        End If
+
+        If RadioButton10.Checked = True Then
+            MessageBox.Show("Правильно", "Правильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage7)
+
+            N = TextBox1.Text
+            Score = N + N
+
+            TextBox1.Text = Score
+        End If
+
+        If RadioButton12.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage7)
+        End If
+    End Sub
+
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+
+
+        Dim N As Integer
+        Dim Score As Integer
+
+        Label9.Text = Score
+        If RadioButton13.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage8)
+        End If
+        If RadioButton14.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage8)
+        End If
+        If RadioButton16.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage8)
+        End If
+
+        If RadioButton15.Checked = True Then
+            MessageBox.Show("Хехе", "Правильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage8)
+            N = TextBox1.Text
+            Score = N + N
+
+            TextBox1.Text = Score
+        End If
+    End Sub
+
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+
+
+        Dim N As Integer
+        Dim Score As Integer
+
+        If RadioButton17.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage6)
+        End If
+        If RadioButton18.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage6)
+        End If
+
+        If RadioButton19.Checked = True Then
+            MessageBox.Show("Молодец отлично получается", "Правильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+
+            TabControl1.SelectTab(TabPage6)
+            N = TextBox1.Text
+            Score = N + N
+
+            TextBox1.Text = Score
+        End If
+
+        If RadioButton20.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage6)
+        End If
+    End Sub
+
+    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+
+
+        Dim N As Integer
+        Dim Score As Integer
+
+
+        If RadioButton21.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage4)
+        End If
+        If RadioButton22.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage4)
+        End If
+
+        If RadioButton23.Checked = True Then
+            MessageBox.Show("О да точно запутался, приготовься к последнему вопросу", "Правильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+
+            TabControl1.SelectTab(TabPage4)
+            N = TextBox1.Text
+            Score = N + N
+
+            TextBox1.Text = Score
+        End If
+
+        If RadioButton24.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage4)
+        End If
+    End Sub
+
+    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
+
+        Button7.Focus()
+        Dim N As Integer
+        Dim Score As Integer
+
+
+        If RadioButton25.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage5)
+        End If
+        If RadioButton26.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage5)
+        End If
+
+        If RadioButton27.Checked = True Then
+            MessageBox.Show("Хорошая работа", "Правильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage5)
+
+
+            N = TextBox1.Text
+            Score = N + N
+
+            TextBox1.Text = Score
+        End If
+
+        If RadioButton28.Checked = True Then
+            MessageBox.Show("Неправильно", "Неправильно!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            TabControl1.SelectTab(TabPage5)
+        End If
+    End Sub
+
+    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
+        Dim N As Integer
+        N = 128
+
+        If TextBox1.Text = N Then
+            MessageBox.Show("Ты отлично знаешь Геометрию и Алгебру, еще увидемся", "Поздравляю!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            Button8.Focus()
+        End If
+        Dim С As Integer
+        С = 32
+
+        If TextBox1.Text = С Then
+            MessageBox.Show("Ты знаешь Геометрию и Алгебру на троечку, еще увидемся", "Не плохо!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            Button8.Focus()
+        End If
+        Dim K As Integer
+        K = 16
+
+        If TextBox1.Text = K Then
+            MessageBox.Show("Ты Плохо знаешь алгебру и геометрию, еще увидемся", "Фейл!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            Button8.Focus()
+        End If
+        Dim M As Integer
+        M = 64
+
+        If TextBox1.Text = M Then
+            MessageBox.Show("Ты Хорошо знаешь Алгебру и Геометрию, еще увидемся", "Молодец!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            Button8.Focus()
+        End If
+        Dim q, w, s As Integer
+        s = 2
+        q = 4
+        w = 8
+
+        If TextBox1.Text = s Then
+            MessageBox.Show("Балов не достаточно тест после перезагрузки", "Не так быстро!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            Button8.Focus()
+        End If
+        If TextBox1.Text = q Then
+            MessageBox.Show("Балов не достаточно продолжай тест после перезагрузки", "Не так быстро!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            Button8.Focus()
+        End If
+        If TextBox1.Text = w Then
+            MessageBox.Show("Балов не достаточно продолжай тест после перезагрузки", "Не так быстро!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            Button8.Focus()
+        End If
+        Me.Close()
+    End Sub
+
+
+
+    Private Sub Button10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button10.Click
+
+
+        If RadioButton30.Checked = True Then
+
+            TabControl1.SelectTab(TabPage1)
+
+            MessageBox.Show("Готовлю тесты...", "Отлично!", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End If
+        If RadioButton29.Checked = True Then
+            MessageBox.Show("Встретимся позже", "Хорошо!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            Me.Close()
+        End If
+
+    End Sub
+
+
+
+    Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox4.Click
+        Me.PictureBox4.Image = System.Drawing.Image.FromFile("E:\WindowsApplication49\WindowsApplication49\Resources\right-triangle1.jpg")
+    End Sub
+
+
+End Class

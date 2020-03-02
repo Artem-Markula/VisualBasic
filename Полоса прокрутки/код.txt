@@ -1,0 +1,20 @@
+Public Class Form1
+    Dim files() As System.IO.FileInfo
+
+
+
+    Private Sub HScrollBar1_Scroll(ByVal sender As System.Object, ByVal e As System.Windows.Forms.ScrollEventArgs) Handles HScrollBar1.Scroll
+
+        Dim file As System.IO.FileInfo = files.GetValue(Me.HScrollBar1.Value)
+        Me.PictureBox1.Image = System.Drawing.Image.FromFile(file.FullName)
+    End Sub
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Dim dirInfo As New System.IO.DirectoryInfo _
+            ("C:\Users\Маркула\Documents\Visual Studio 2010\Projects\VampireProgram\VampireProgram\Resources")
+        files = dirInfo.GetFiles("*.jpg.")
+        Me.HScrollBar1.Maximum = files.Length
+        Call Me.HScrollBar1_Scroll(sender, e)
+
+    End Sub
+End class

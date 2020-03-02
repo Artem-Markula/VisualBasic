@@ -1,0 +1,86 @@
+Public Class Form12
+
+
+    
+    Private Sub ToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem1.Click
+        Me.Show()
+
+    End Sub
+
+    Private Sub ToolStripMenuItem2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem2.Click
+        OpenFileDialog1.ShowDialog()
+        If OpenFileDialog1.FileName = "" Then
+        Else
+
+            RichTextBox1.LoadFile(OpenFileDialog1.FileName, RichTextBoxStreamType.PlainText)
+            Beep()
+        End If
+    End Sub
+
+
+    Private Sub ToolStripMenuItem3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem3.Click
+        SaveFileDialog1.ShowDialog()
+        If SaveFileDialog1.FileName = "" Then
+
+        Else
+            RichTextBox1.SaveFile(SaveFileDialog1.FileName, RichTextBoxStreamType.PlainText)
+            MessageBox.Show("Успешно", "Файл сохранен", MessageBoxButtons.OK)
+            Beep()
+        End If
+    End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Dim track As Integer = "123456789"
+        Dim lok As String
+
+        lok = Me.RichTextBox1.Text
+        If TextBox1.Text = "" Then
+            MsgBox("Файл не найден", , MsgBoxStyle.Critical)
+
+            Exit Sub
+        End If
+
+        Me.RichTextBox1.Focus()
+        Me.RichTextBox1.Focus()
+        For i = 0 To track
+            Me.RichTextBox1.Focus()
+            Me.RichTextBox1.Focus()
+            Me.RichTextBox1.Find(TextBox1.Text)
+            If LCase(Me.RichTextBox1.SelectedText) = LCase(TextBox1.Text) Then
+                Me.RichTextBox1.SelectedText = "A"
+            Else
+                If i = 0 Then
+                    MsgBox(TextBox1.Text & "-Не найдено в тексте")
+                    Exit Sub
+                Else
+                    If LCase(Me.RichTextBox1.SelectedText) = LCase(TextBox1.Text) Then
+                        GoTo 10
+                    Else
+                        If ListBox1.Items.Contains(TextBox1.Text & "---Встречается в тексте: " & i & "-раз") Then
+                            GoTo 20
+                        Else
+                            ListBox1.Items.Add(TextBox1.Text & "---Встречается в тексте:" & i & "-раз")
+20:                         Me.RichTextBox1.Text = lok
+                            Exit Sub
+                        End If
+                    End If
+                End If
+            End If
+10:     Next i
+
+
+
+
+    End Sub
+
+    Private Sub ToolStripMenuItem4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem4.Click
+        If Not IsNumeric(ToolStripMenuItem3.Text) Then
+            MessageBox.Show("Эта программа предназначена для высчитывания букв из текста")
+            MessageBox.Show("Для этого нужно загрузить нужный текстовый файл, а затем нажать кнопку расчитать, ваше чило появится на листе")
+            MessageBox.Show("Пингвины расчитают буквы и выведут его на листок, также можете редактировать текст и сохранять его ")
+        End If
+
+
+
+    End Sub
+End Class

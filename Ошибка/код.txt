@@ -1,0 +1,36 @@
+Public Class Vampire
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles VampireResult1.Click
+
+
+        If Not IsNumeric(VampireSquare.Text) Then
+            MessageBox.Show("Ошибка", "Vampire Говорит", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            VampireSquare.Focus()
+
+        End If
+
+
+        If Not IsNumeric(VampireSquare.Text) Then
+            MessageBox.Show("Не верный формат", "Назови число!", MessageBoxButtons.OK, MessageBoxIcon.Stop)
+            VampireSquare.Focus()
+
+
+
+        Else
+
+            Dim N As Integer
+            Dim Flood As Integer
+
+            N = VampireSquare.Text
+            Flood = N * N
+            Quesion.Text = Flood
+
+        End If
+
+
+    End Sub
+
+
+
+
+End Class

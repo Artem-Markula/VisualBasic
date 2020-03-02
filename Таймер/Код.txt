@@ -1,0 +1,19 @@
+Public Class Form1
+
+    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        Me.Label1.Text = System.DateTime.Now.ToLongDateString + "" +
+            System.DateTime.Now.ToLongDateString
+
+    End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        If Me.Button1.Text = "Start" Then
+            Me.Timer1.Start()
+            Me.Button1.Text = "Stop"
+        Else
+            Me.Timer1.Stop()
+            Me.Button1.Text = "Start"
+        End If
+    End Sub
+
+End Class

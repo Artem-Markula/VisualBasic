@@ -1,0 +1,4 @@
+  Private Sub TextQuesion_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles TextQuesion.Click
+        TextQuesion.Clear()
+    End Sub
+End Class

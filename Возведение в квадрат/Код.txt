@@ -1,0 +1,14 @@
+Public Class Square
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles VampireResult1.Click
+
+        Dim N As Integer
+        Dim Square As Integer
+
+        N = VampireSquare.Text
+        Square = N * N
+        VampireResult1.Text = Square
+
+    End Sub
+
+End Class

@@ -1,0 +1,30 @@
+Imports System.IO
+Public Class Form1
+    Sub readfile(ByVal filename As String)
+        If File.Exists(filename) Then
+            Dim T As New StreamReader(filename)
+            Dim e As String = T.ReadToEnd
+            T.Close()
+            RichTextBox1.Text = e
+        Else
+            MessageBox.Show("Файл утерен")
+        End If
+    End Sub
+
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        readfile("H:\Учеба\Учеба\Основы Алгоритмизации\Новая папка\Texted.txt")
+    End Sub
+
+    Sub writefile(ByVal filename As String)
+        Dim r As New StreamWriter(filename)
+        r.Write(RichTextBox1.Text)
+        r.Flush()
+        r.Close()
+
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        writefile("H:\Учеба\Учеба\Основы Алгоритмизации\Новая папка\Texted.txt")
+    End Sub
+End Class

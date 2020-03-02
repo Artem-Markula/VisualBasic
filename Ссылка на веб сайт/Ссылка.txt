@@ -1,0 +1,22 @@
+Public Class Form1
+
+    Private Sub LinkLabel1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+
+
+        Dim target As String = CType(e.Link.LinkData, String)
+        If (target IsNot Nothing) AndAlso (target.StartsWith("www")) Then
+            System.Diagnostics.Process.Start(target)
+        Else
+            MessageBox.Show(("Нажмите кнопку для получения ссылки:" + target))
+        End If
+
+
+
+    End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        LinkLabel1.Links.Clear()
+        LinkLabel1.Links.Add(0, 3, "www.google.com")
+        LinkLabel1.Text = "Жми сюда"
+End Sub 
+End Class
